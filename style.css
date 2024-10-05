@@ -1,0 +1,57 @@
+/* Overall body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container style */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Stopwatch display */
+#display {
+    font-size: 48px;
+    color: #333333; /* Dark text color */
+    margin: 20px 0;
+}
+
+/* Buttons styling */
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;  /* Standard blue color */
+    border-radius: 5px;
+    transition: background-color 0.2s, transform 0.2s ease; /* Add transition for hover and click effects */
+}
+
+/* Hover effect for buttons */
+.buttons button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Click effect (active state) */
+.buttons button:active {
+    background-color: #003f7f; /* Even darker blue on click */
+    transform: scale(0.95); /* Slightly shrink the button to simulate a click press */
+}
+
+/* Lap times styling */
+#laps div {
+    color: #555555;
+    font-size: 20px;
+    margin-top: 10px;
+}
